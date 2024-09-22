@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% include "navbar.html" %}
+
+{% block content1 %}
+<div class="row my-5">
+    <div class="col-md-8 offset-md-2 text-center">
+        <h2 class="mb-4" style="color: #4fffb0;">Contact Information</h2>
+
+        <!-- Contact Information -->
+        <div class="card p-4">
+            <!-- Profile Picture -->
+            <div class="mb-3">
+                <img src="{% static 'images/imd1.jpg' %}" alt="Profile Picture" 
+                     style="width: 150px; height: 150px; border-radius: 50%; border: 2px solid #ddd;">
+            </div>
+
+            <div class="mb-3">
+                <strong>Name:</strong>
+                <span>Rupesh Kumar Daha</span>
+            </div>
+            <div class="mb-3">
+                <strong>Phone Number:</strong>
+                <span>+91-8264559127</span>
+            </div>
+            <div class="mb-3">
+                <strong>Email:</strong>
+                <span><a href="mailto:daharupesh21@gmail.com">daharupesh21@gmail.com</a></span>
+            </div>
+            <div class="mb-3">
+                <strong>Address:</strong>
+                <span>Rajkot Gujarat, India</span>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links mt-4">
+                <h5>Connect with me:</h5>
+                <a href="https://github.com/daharupesh" target="_blank" class="btn btn-dark mx-2">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/rupeshdaha/" target="_blank" class="btn btn-primary mx-2">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.facebook.com/ramcharan.mandal.1422" target="_blank" class="btn btn-primary mx-2">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com/rupeshdaha/" target="_blank" class="btn btn-danger mx-2">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://twitter.com/your-twitter" target="_blank" class="btn btn-info mx-2">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content1 %}

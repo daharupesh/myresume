@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% include "navbar.html" %}
+
+{% block content1 %} 
+<div class="row my-5">
+    <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="image-card main-image-card">
+            <img src="{% static 'images/about1.png' %}" alt="Profile Image" class="card-img">
+        </div>
+    </div>    
+
+    <div class="col-7 text-left text-light content-card">
+        <h2>Hello</h2>
+        <p class="fs-5">
+            I am a recent graduate in <mark style="background-color:#ffff00; padding: 0px 0px">Computer Engineering from RK University</mark>, with a strong foundation in programming, data structures, and algorithms. 
+            Passionate about Data Science, Machine Learning, AI, and IoT, I am always eager to explore innovative solutions. 
+            While my expertise spans multiple programming languages, including SQL, C++, and Java, I am particularly proficient in Python. 
+            I have hands-on experience with essential libraries such as<mark style="background-color:#ffff00; padding: 0px 0px"> scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, and Plotly, as well as working with modules like OS, shutil, re, and Beautiful Soup</mark>.  
+        </p>
+        <p class="fs-5">
+            I thrive on solving complex problems, whether through analyzing datasets, building full-stack applications, or creating automation tools. 
+            With a proven track record in projects like recommendation systems, web scraping, and Android development, I am driven to make an impact in the tech space.
+        </p>
+        <p class="fs-5">
+            <mark style="background-color:#ffff00; padding: 0px 0px">I am currently seeking opportunities in the Data Science domain and backend web development,</mark>, where I can apply my Python expertise and experience with various libraries to extract insights and make data-driven decisions.
+        </p>
+    </div>
+</div>
+
+<div class="row my-2">
+    <h2 class="text-center" style="color: #4fffb0;"> My Tech Stack </h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap my-3">
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/python.png' %}" alt="Python logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/html.png' %}" alt="HTML logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/css.png' %}" alt="CSS logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="https://www.opengis.ch/wp-content/uploads/2020/04/django-python-logo.png" alt="Django logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/cpp.png' %}" alt="C++ logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/numpy.png' %}" alt="NumPy logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="https://ih1.redbubble.net/image.5124540665.7259/st,small,507x507-pad,600x600,f8f8f8.u1.jpg" alt="Pandas logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/machine.png' %}" alt="Machine Learning logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png" alt="React logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/nodejs.png' %}" alt="Node.js logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/android.png' %}" alt="Android logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/ardino.jpeg' %}" alt="Arduino logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="{% static 'images/flask.jpg' %}" alt="Arduino logo" class="card-img">
+        </div>
+        <div class="image-card mx-2 my-2">
+            <img src="https://as2.ftcdn.net/v2/jpg/03/33/96/91/1000_F_333969124_oxVCGRls74lDBLwsEiOg5JNg23njoKZT.jpg" alt="Arduino logo" class="card-img">
+        </div>
+    </div>
+
+
+    <!-- Skills Section Start -->
+    <div class="container mt-5">
+        
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-group text-start" style="list-style-type: disc; padding-left: 20px;">
+                    <!-- Programming Languages -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Programming Languages:</strong> Python (Proficient), SQL, C, C++, Java, PHP, HTML, CSS, JavaScript
+                    </li>
+    
+                    <!-- Python Modules -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Modules (Python):</strong> OS (Proficient), shutil (Proficient), math, datetime, json, itertools, logging, random (Proficient), collections
+                    </li>
+    
+                    <!-- Libraries -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Libraries:</strong> NumPy (Proficient), Pandas (Proficient), BeautifulSoup, Matplotlib, Seaborn, Tkinter, Scikit-learn
+                    </li>
+    
+                    <!-- AI/ML -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>AI/ML:</strong> Data Collection (Webscraping, ETL), EDA, ML Algorithms(Regression, Classification, Clustering, Dimensionality Reduction, Reinforcement Learning), DL
+                    </li>
+    
+                    <!-- Frameworks -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Frameworks:</strong> Django, Flask, FastAPI, React.js
+                    </li>
+    
+                    <!-- Databases -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Databases:</strong> MySQL, MongoDB
+                    </li>
+    
+                    <!-- Tools -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Tools:</strong> Android Studio, GitHub (basic), Arduino Development Board
+                    </li>
+    
+                    <!-- Understanding -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Understanding:</strong> OOP, Data Structures and Algorithms, DBMS, IoT, Cloud Computing
+                    </li>
+    
+                    <!-- Soft Skills -->
+                    <li class="list-group-item" style="border: none;">
+                        <strong>Soft Skills:</strong> Effective Communication, Problem-Solving, Leadership, Entrepreneurial Thinking
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p></p>
+            <p></p>
+
+        </div>
+    </div>
+    
+    
+</div>
+{% endblock content1 %}

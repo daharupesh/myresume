@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% include "navbar.html" %}
+
+{% block content1 %}
+<div class="row my-5">
+    <div class="col-md-8 offset-md-2 text-center">
+        <h2 class="mb-4" style="color: #4fffb0;">My Certificates</h2>
+        
+        <!-- First Card -->
+        <div class="project-card bg-white p-3 shadow-sm mb-4" style="border-radius: 10px;">
+            <div class="image-container">
+                <img src="{% static 'images/pw.png' %}" alt="Book Recommendation System" class="project-img" height="200px" width="380px" style="border-radius: 5px;">
+            </div>
+            <h4 class="project-title mt-2">PwSkills Internship Certification</h4>
+            <p class="project-description">As a Data Science Intern at PW Skills (Dec 2023 - Apr 2024), I extracted insights from complex datasets using Python and performed EDA and web scraping on over 50,000 data points. Additionally, I contributed to three major projects using Django and Flask, enhancing my skills in web development and data analysis.</p>
+            <a href="https://drive.google.com/file/d/1DcD0M9cGzRZC72g7SIKS7TR4hPAsinM2/view" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+        
+        <!-- Second Card -->
+        <div class="project-card bg-white p-3 shadow-sm mb-4" style="border-radius: 10px;">
+            <div class="image-container">
+                <img src="{% static 'images/iot.png' %}" alt="Book Recommendation System" class="project-img" height="200px" width="380px" style="border-radius: 5px;">
+            </div>
+            <h4 class="project-title mt-2">Iot HackFest | Rk Univeristy</h4>
+            <p class="project-description">The IoT HackFest at RK University provided a platform for developing innovative projects. Rupesh Kumar Daha created a spoilage detection system using gas sensors, Arduino programming, and cloud technology to monitor data through a dashboard.</p>
+            <a href="https://drive.google.com/file/d/1ZHIvWoaBeH5JqTdHPUBrzh7XhzoM1FLl/view" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+        
+        <!-- Third Card -->
+        <div class="project-card bg-white p-3 shadow-sm" style="border-radius: 10px;">
+            <div class="image-container">
+                <img src="{% static 'images/idea.png' %}" alt="Book Recommendation System" class="project-img" height="200px" width="380px" style="border-radius: 5px;">
+            </div>
+            <h4 class="project-title mt-2">Ideation Bootcamp | RK University</h4>
+            <p class="project-description">The Ideation Bootcamp at RK University was a 24-hour workshop centered on idea development and presentation, focusing on entrepreneurship. Rupesh Kumar Daha showcased his hotel booking application concept during the event.</p>
+            <a href="https://drive.google.com/file/d/1UCZd-VVrtVlf6Y0jNFRDCo4jko4Q__mI/view" target="_blank" class="btn btn-primary">View Certificate</a>
+        </div>
+
+    </div>
+</div>
+{% endblock content1 %}

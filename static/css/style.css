@@ -1,0 +1,258 @@
+
+body{
+    background-color: rgb(20, 0,30);
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight:bold;
+    color: #4fffb0;
+
+}
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.navbar-dark{
+    background-color: rgb(18,1,46);
+}
+
+.circular-image-container{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.circular-image{
+    width:200%;
+    height: auto;
+    display: block;
+}
+
+.title{
+    color: #4fffb0
+}
+.name{
+    color: #fff;
+}
+
+
+.about_image{
+    width:300px;
+    height: auto;
+    display: block;
+
+}
+
+
+
+
+
+/* ''''''''''''Cart image.......... */
+
+.image-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: black; /* Background color for the card */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensure the image fits well within the card */
+}
+
+.d-flex {
+    gap: 20px; /* Maintain consistent gap between cards */
+}
+
+
+
+/* .........css for image -card */
+
+/* General card styling */
+
+
+
+
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.3s;
+    background-color:rgb(20, 0,30);
+}
+
+.image-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-card:hover .card-img {
+    transform: scale(1.05);
+}
+
+/* Styling for the main content card */
+.content-card {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.content-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Main image card styling */
+.main-image-card {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+
+/* ............. */
+
+/* ...........this is for navbar sticky........... */
+
+
+.navbar.sticky-top {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+
+.nav-link.active {
+    color: #4fffb0; /* Active link color */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #4fffb0; /* Toggler icon color */
+}
+
+/* ..... */
+
+/* ..........adding hover properties in the home.html */
+
+.circular-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 220px;
+    height: 220px;
+    transition: transform 0.3s ease;
+}
+
+.circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.circular-image-container:hover .circular-image {
+    transform: scale(1.1);
+}
+
+
+.name h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.name h1:hover {
+    color: #4fffb0;
+}
+
+
+/* .............. */
+
+/* ........adding hover on social media link icon */
+
+.social_links {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_links:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ........... */
+
+/* .........Typing animation....... */
+.typing-animation {
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 0.15em solid #4fffb0; /* Cursor */
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #4fffb0 }
+}
+
+
+
