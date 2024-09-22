@@ -1,2 +1,2 @@
-Django
-gunicorn  # WSGI HTTP server for running Django on PythonAnywhere
+Django==5.0.4
+gunicorn
